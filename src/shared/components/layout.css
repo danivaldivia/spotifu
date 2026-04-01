@@ -1,0 +1,34 @@
+.app-layout {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 240px 1fr;
+  grid-template-rows: 62px 1fr 88px;
+  grid-template-areas:
+    "sidebar header"
+    "sidebar main"
+    "player  player";
+}
+
+.area-sidebar {
+  display: flex;
+  grid-area: sidebar;
+  background-color: purple;
+}
+
+.area-header {
+  display: flex;
+  grid-area: header;
+  background-color: yellow;
+}
+
+.area-main {
+  display: flex;
+  grid-area: main;
+  background-color: pink;
+}
+
+.area-player-bar {
+  display: flex;
+  grid-area: player;
+  background-color: green;
+}
