@@ -1,7 +1,6 @@
 .app-layout {
   display: grid;
   height: 100%;
-  background-color: blue;
   grid-template-columns: 240px 1fr;
   grid-template-rows: 62px 1fr 88px;
   grid-template-areas:
@@ -12,7 +11,7 @@
 
 .area-sidebar {
   display: flex;
-  grid-area: saidbar;
+  grid-area: sidebar;
   background-color: purple;
 }
 
@@ -25,7 +24,7 @@
 .area-main {
   display: flex;
   grid-area: main;
-  background-color: purple;
+  background-color: pink;
 }
 
 .area-player-bar {
