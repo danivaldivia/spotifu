@@ -11,24 +11,22 @@
 
 .area-sidebar {
   display: flex;
+  flex-direction: column;
   grid-area: sidebar;
-  background-color: purple;
+  background-color: var(--gray-60);
 }
 
 .area-header {
   display: flex;
   grid-area: header;
-  background-color: yellow;
 }
 
 .area-main {
   display: flex;
   grid-area: main;
-  background-color: pink;
 }
 
 .area-player-bar {
   display: flex;
   grid-area: player;
-  background-color: green;
 }
