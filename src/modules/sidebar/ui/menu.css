@@ -40,3 +40,16 @@
   border-left: 4px solid var(--green-primary);
   color: var(--white);
 }
+
+.menu__item--active {
+  border-left: 4px solid var(--green-primary);
+  color: var(--white);
+}
+
+.icon--hidden {
+  display: none;
+}
+
+.icon--active {
+  display: block;
+}
