@@ -1,0 +1,11 @@
+@import url("../../../shared/settings/fonts.css");
+@import url("../../../shared/settings/variables.css");
+
+@import url("../../../shared/global/body.css");
+
+@import url("../../../shared/components/layout.css");
+
+@import url("./spotifu-logo.css");
+@import url("./area-sidebar.css");
+@import url("./playlist-group.css");
+@import url("./menu.css");
