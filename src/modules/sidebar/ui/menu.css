@@ -37,11 +37,13 @@
 }
 
 .menu__item:hover {
+  padding-left: 20px;
   border-left: 4px solid var(--green-primary);
   color: var(--white);
 }
 
 .menu__item--active {
+  padding-left: 20px;
   border-left: 4px solid var(--green-primary);
   color: var(--white);
 }
