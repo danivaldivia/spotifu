@@ -1,0 +1,55 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu__list {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu__item {
+  padding: 0.5rem 8rem 0.5rem 1.5rem;
+}
+
+.menu__link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: var(--grey-10);
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.1em;
+}
+
+.menu__item__icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.menu__item__icon svg {
+  width: auto;
+  height: 100%;
+}
+
+.menu__item:hover {
+  border-left: 4px solid var(--green-primary);
+  color: var(--white);
+}
+
+.menu__item--active {
+  border-left: 4px solid var(--green-primary);
+  color: var(--white);
+}
+
+.icon--hidden {
+  display: none;
+}
+
+.icon--active {
+  display: block;
+}
