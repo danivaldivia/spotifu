@@ -1,0 +1,37 @@
+.playlist-card {
+  display: flex;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.playlist-card__image {
+  box-sizing: border-box;
+  width: 4.75rem;
+  height: 4.75rem;
+}
+
+.playlist-card__image img {
+  width: auto;
+  height: 100%;
+}
+
+.playlist-card-song {
+  box-sizing: border-box;
+  display: flex;
+  background-color: var(--gray-30);
+  gap: 8px;
+  padding: 1rem;
+  align-items: center;
+}
+
+.card-song__title {
+  margin: 0;
+  font-size: 0.875rem;
+  line-height: 1.375;
+}
+
+.card-song__play-icon {
+  width: 40px;
+  height: 40px;
+}

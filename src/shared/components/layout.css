@@ -24,7 +24,9 @@
 .area-main {
   display: flex;
   grid-area: main;
+  padding: 32px;
   background-color: pink;
+  overflow: hidden;
 }
 
 .area-player-bar {
