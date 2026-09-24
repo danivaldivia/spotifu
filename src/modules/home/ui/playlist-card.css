@@ -16,7 +16,7 @@
   height: 100%;
 }
 
-.playlist-card-song {
+.playlist-card__content {
   box-sizing: border-box;
   display: flex;
   background-color: var(--gray-30);
@@ -25,13 +25,13 @@
   align-items: center;
 }
 
-.card-song__title {
+.playlist-card__title {
   margin: 0;
   font-size: 0.875rem;
   line-height: 1.375;
 }
 
-.card-song__play-icon {
+.playlist-card__play {
   width: 40px;
   height: 40px;
 }
