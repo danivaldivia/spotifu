@@ -25,8 +25,9 @@
   display: flex;
   grid-area: main;
   flex-wrap: wrap;
-  padding: 32px;
-  background-color: pink;
+  padding: 2rem;
+  gap: 2rem;
+  background-color: var(--gray-50);
   overflow: scroll;
 }
 
