@@ -1,0 +1,17 @@
+.playlist-grid {
+  min-width: 100%;
+  display: grid;
+  gap: 1rem;
+}
+
+.playlist-grid--horizontal {
+  box-sizing: border-box;
+  grid-template-columns: repeat(6, 271px);
+  grid-template-rows: repeat(2, auto);
+}
+
+.playlist-grid--vertical {
+  box-sizing: border-box;
+  grid-template-columns: repeat(10, 182px);
+  grid-template-rows: repeat(1, auto);
+}

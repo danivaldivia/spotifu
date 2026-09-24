@@ -1,0 +1,17 @@
+.top-playlist {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  overflow: scroll;
+}
+
+.top-playlist::-webkit-scrollbar {
+  display: none;
+}
+
+.top-playlist__title {
+  margin: 0;
+  font-size: 1.5rem;
+  line-height: 1.75;
+}
