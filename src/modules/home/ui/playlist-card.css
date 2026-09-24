@@ -1,28 +1,34 @@
 .playlist-card {
   display: flex;
-  border-radius: 0.5rem;
-  box-sizing: border-box;
-  overflow: hidden;
-}
-
-.playlist-card__image {
-  box-sizing: border-box;
-  width: 4.75rem;
-  height: 4.75rem;
-}
-
-.playlist-card__image img {
-  width: auto;
-  height: 100%;
 }
 
 .playlist-card__content {
   box-sizing: border-box;
   display: flex;
-  background-color: var(--gray-30);
-  gap: 8px;
+}
+
+.playlist-card__content--horizontal {
   padding: 1rem;
   align-items: center;
+  gap: 0.5rem;
+}
+
+.playlist-card--horizontal {
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: var(--gray-30);
+}
+
+.playlist-card__image--horizontal {
+  box-sizing: border-box;
+  width: 4.75rem;
+  height: 4.75rem;
+}
+
+.playlist-card__image--horizontal img {
+  width: auto;
+  height: 100%;
 }
 
 .playlist-card__title {
@@ -34,4 +40,37 @@
 .playlist-card__play {
   width: 40px;
   height: 40px;
+}
+
+.playlist-card--vertical {
+  background-color: var(--gray-40);
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.playlist-card__content--vertical {
+  padding: 0;
+  flex-direction: column;
+}
+
+.playlist-card__image--vertical {
+  box-sizing: border-box;
+  width: 9.375rem;
+  height: 9.375rem;
+}
+
+.playlist-card__image--vertical img {
+  width: auto;
+  height: 100%;
+}
+
+.playlist-card__description {
+  color: var(--gray-10);
+  margin: 0;
+  font-size: 0.875rem;
+  line-height: 1.375;
 }

@@ -24,9 +24,14 @@
 .area-main {
   display: flex;
   grid-area: main;
+  flex-wrap: wrap;
   padding: 32px;
   background-color: pink;
-  overflow: hidden;
+  overflow: scroll;
+}
+
+.area-main::-webkit-scrollbar {
+  display: none;
 }
 
 .area-player-bar {

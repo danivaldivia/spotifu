@@ -8,7 +8,10 @@
   box-sizing: border-box;
   grid-template-columns: repeat(6, 271px);
   grid-template-rows: repeat(2, auto);
-  grid-template-areas:
-    "card-1 card-2 card-3 card-4 card-9 card-11"
-    "card-5 card-6 card-7 card-8 card-10 card-12";
+}
+
+.playlist-grid--vertical {
+  box-sizing: border-box;
+  grid-template-columns: repeat(10, 182px);
+  grid-template-rows: repeat(1, auto);
 }
