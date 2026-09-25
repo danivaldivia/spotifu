@@ -1,0 +1,27 @@
+.player-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  box-sizing: border-box;
+}
+
+.player-controls__actions {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.player-controls__previous,
+.player-controls__next,
+.player-controls__play {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.player-controls__progress {
+  display: flex;
+}
