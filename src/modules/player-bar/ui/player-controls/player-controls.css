@@ -17,11 +17,38 @@
 .player-controls__next,
 .player-controls__play {
   display: flex;
+  background-color: transparent;
+  border: none;
+  padding: 0;
   align-items: center;
   width: 100%;
   height: 100%;
 }
 
 .player-controls__progress {
-  display: flex;
+  appearance: none;
+  -webkit-appearance: none;
+  padding-block: 0.25rem;
+  margin: 0;
+  width: 31rem;
+  height: 0.25rem;
+  background: transparent;
+}
+
+.player-controls__progress::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 100%;
+  background: var(--gray-10);
+  border-radius: 0.25rem;
+}
+
+.player-controls__progress::-webkit-slider-thumb {
+  appearance: none;
+  -webkit-appearance: none;
+  height: 0.5rem;
+  width: 0.5rem;
+  background: var(--white);
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: -2px;
 }
