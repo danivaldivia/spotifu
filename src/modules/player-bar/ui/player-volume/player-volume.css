@@ -1,0 +1,10 @@
+.player-volumen {
+  display: flex;
+  gap: 0.5rem;
+  padding-inline: 0.5rem;
+}
+
+.player-volume__button {
+  background-color: transparent;
+  border: none;
+}
