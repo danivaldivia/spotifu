@@ -30,5 +30,6 @@
 .area-player-bar {
   display: flex;
   grid-area: player;
-  background-color: green;
+  background-color: var(--gray-40);
+  padding: 1rem;
 }
