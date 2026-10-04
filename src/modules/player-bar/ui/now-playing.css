@@ -1,0 +1,40 @@
+.now-playing {
+  display: flex;
+  align-items: center;
+}
+
+.now-playing__image {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.now-playing__image img {
+  width: 100%;
+  height: auto;
+}
+
+.now-playing__song {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.now-playing__description {
+  /* background-color: greenyellow; */
+  padding-inline: 0.5rem 0;
+  padding-block: 0.625rem;
+}
+
+.now-playing__title {
+  margin: 0;
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.375;
+  font-weight: 700;
+}
+
+.now-playing__artists {
+  margin: 0;
+  font-size: 0.7rem;
+  color: var(--gray-10);
+}
