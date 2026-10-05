@@ -1,15 +1,9 @@
 .playlist-card {
   display: flex;
-  box-sizing: border-box;
 }
 
 .playlist-card__content {
-  box-sizing: border-box;
   display: flex;
-}
-
-.playlist-card__image {
-  box-sizing: border-box;
 }
 
 .playlist-card__image img {
