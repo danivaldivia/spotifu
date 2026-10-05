@@ -4,12 +4,12 @@
   gap: 1rem;
 }
 
-.playlist-grid--horizontal {
-  grid-template-columns: repeat(6, 271px);
+.recent-playlist-grid {
+  grid-template-columns: repeat(6, 17rem);
   grid-template-rows: repeat(2, auto);
 }
 
-.playlist-grid--vertical {
-  grid-template-columns: repeat(10, 182px);
+.top-playlist-grid {
+  grid-template-columns: repeat(10, 11rem);
   grid-template-rows: repeat(1, auto);
 }

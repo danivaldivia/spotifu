@@ -13,5 +13,24 @@
 .recent-playlist__title {
   margin: 0;
   font-size: 1.5rem;
-  line-height: 1.75;
+  line-height: 1.57em;
+}
+
+/* HORIZONTAL */
+
+.recent-playlist-card {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background-color: var(--gray-30);
+}
+
+.recent-playlist-card__image {
+  width: 4.75rem;
+  height: 4.75rem;
+}
+
+.recent-playlist-card__content {
+  padding: 1rem;
+  align-items: center;
+  gap: 0.5rem;
 }

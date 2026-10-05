@@ -13,5 +13,33 @@
 .top-playlist__title {
   margin: 0;
   font-size: 1.5rem;
-  line-height: 1.75;
+  line-height: 1.57em;
+}
+
+/* VERTICAL */
+
+.top-playlist-card {
+  background-color: var(--gray-40);
+  border-radius: 0.25rem;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.top-playlist-card__image {
+  width: 9.375rem;
+  height: 9.375rem;
+}
+
+.top-playlist-card__content {
+  padding: 0;
+  flex-direction: column;
+}
+
+.top-playlist-card__description {
+  color: var(--gray-10);
+  margin: 0;
+  font-size: 0.875rem;
+  line-height: 1.57em;
 }
