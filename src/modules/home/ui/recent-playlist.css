@@ -24,9 +24,14 @@
   background-color: var(--gray-30);
 }
 
+.recent-playlist-card:hover {
+  background-color: var(--gray-10);
+}
+
 .recent-playlist-card__image {
-  width: 4.75rem;
-  height: 4.75rem;
+  flex: 0 0 76px;
+  height: 100%;
+  flex-shrink: 0;
 }
 
 .recent-playlist-card__content {

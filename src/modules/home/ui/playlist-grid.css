@@ -10,6 +10,6 @@
 }
 
 .top-playlist-grid {
-  grid-template-columns: repeat(10, 11rem);
+  grid-template-columns: repeat(10, 11.375rem);
   grid-template-rows: repeat(1, auto);
 }
