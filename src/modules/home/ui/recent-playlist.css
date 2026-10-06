@@ -31,7 +31,6 @@
 .recent-playlist-card__image {
   flex: 0 0 76px;
   height: 100%;
-  flex-shrink: 0;
 }
 
 .recent-playlist-card__content {
