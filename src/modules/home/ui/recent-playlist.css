@@ -1,0 +1,40 @@
+.recent-playlist {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  overflow: scroll;
+}
+
+.recent-playlist::-webkit-scrollbar {
+  display: none;
+}
+
+.recent-playlist__title {
+  margin: 0;
+  font-size: 1.5rem;
+  line-height: 1.6em;
+}
+
+/* HORIZONTAL */
+
+.recent-playlist-card {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background-color: var(--gray-30);
+}
+
+.recent-playlist-card:hover {
+  background-color: var(--gray-10);
+}
+
+.recent-playlist-card__image {
+  flex: 0 0 76px;
+  height: 100%;
+}
+
+.recent-playlist-card__content {
+  padding: 1rem;
+  align-items: center;
+  gap: 0.5rem;
+}

@@ -1,0 +1,15 @@
+.playlist-grid {
+  min-width: 100%;
+  display: grid;
+  gap: 1rem;
+}
+
+.recent-playlist-grid {
+  grid-template-columns: repeat(6, 17rem);
+  grid-template-rows: repeat(2, auto);
+}
+
+.top-playlist-grid {
+  grid-template-columns: repeat(10, 11.375rem);
+  grid-template-rows: repeat(1, auto);
+}
